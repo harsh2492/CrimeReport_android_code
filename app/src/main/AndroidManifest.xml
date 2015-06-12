@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.gms.location.sample.locationaddress" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Base" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/your_location" >
+        </activity>
+        <!--
+        Service to asynchronously fetch a location address using a Geocoder. Setting the
+        android:exported attribute to "false" stops other apps from starting this
+        service, even when using an explicit intent.
+        -->
+        <service
+            android:name=".FetchAddressIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".CrimePagerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CrimeListActivity"
+            android:label="@string/title_activity_crime_list" >
+        </activity>
+        <activity
+            android:name=".CrimeActivity"
+            android:label="@string/title_activity_crime" >
+        </activity>
+        <activity
+            android:name=".CrimeCameraActivity"
+            android:label="@string/title_activity_crime_camera"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".MainScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/help_name" >
+        </activity>
+        <activity
+            android:name=".Backend"
+            android:label="backend" >
+        </activity>
+        <activity
+            android:name=".NewCrimeActivity"
+            android:label="New Crime" >
+        </activity>
+        <activity
+            android:name=".GetAllCrimes"
+            android:label="Get All Crimes" >
+        </activity>
+        <activity
+            android:name=".AreaCrime"
+            android:label="@string/title_activity_area_crime" >
+        </activity>
+        <activity
+            android:name=".CrimeStatus"
+            android:label="@string/title_activity_crime_status" >
+        </activity>
+    </application>
+
+</manifest>

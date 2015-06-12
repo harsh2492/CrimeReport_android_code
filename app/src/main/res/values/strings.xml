@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome"><font size="30"><b>\t\t\t\t\t\t\t\tWelcome</b></font></string>
+    <string name="choose"><b>Please choose one option</b></string>
+    <string name="app_name">Crime Report</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="crime_title_hint">Enter crime title</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="crime_title_label">Title</string>
+    <string name="crime_details_label">Details</string>
+    <string name="crime_solved_label">Solved?</string>
+    <string name="crime_title">Crimes</string>
+    <string name="title_activity_crime_list">CrimeListActivity</string>
+    <string name="title_activity_crime">CrimeActivity</string>
+    <string name="date_picker_title">Date of crime:</string>
+    <string name="new_crime">New Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle">If you see something, say something.</string>
+    <string name="delete_crime">Delete</string>
+    <string name="take">Take</string>
+    <string name="title_activity_crime_camera">CrimeCameraActivity</string>
+    <string name="crime_report">%1$s!
+The crime was discovered on %2$s. %3$s, and %4$s</string>
+    <string name="crime_report_solved">The case is solved</string>
+    <string name="crime_report_unsolved">The case is not solved</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">Send crime report via</string>
+    <string name="hello_world">hh</string>
+    <string name="title_activity_main_screen">MainScreenActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="help"><b>\t\t\t\t\t\t\t\tWelcome!!</b>         \n I will help you, how to use our application.\n
+        This application offers the following options to the user:\n
+        <b>1.) Report a Crime Via Email</b>
+        \nUser can use this option to report a Crime.User can click a picture of Crime Scene, add a title for it and then he can send a report of Crime via Email.
+        \n<b>2.) Send Crime Details directly to police database</b>
+        \nUser can use this option to directly send the crime details to police database
+        \n<b>3.) View List of Reported Crimes</b>
+        \nUser can use this option to view the list of Crimes he has reported so far.
+        \n <b>4.) Delete a Crime</b>
+        \nUser can use this option to delete a existing Crime in the list, by long pressing it.
+        \n <b>4.) Get statistics</b>
+        \nUser can use this option to get statistics from the police database.He can use it to see what are the various areas in which crimes have been reported so far.
+        \n<b> 5.) Get Status of Crime</b>
+        \n User can use this option to check that whether the crime he has reported is solved or not.
+
+    </string>
+
+
+    <string name="help_name">How to use this application</string>
+    <string name="your_location">Find your location</string>
+    <string name="title_activity_area_crime">AreaCrime</string>
+    <string name="title_activity_crime_status">CrimeStatus</string>
+
+</resources>
